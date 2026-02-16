@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>THE APPLIANCE DEPOT INVENTORY SYSTEM</title>
+</head>
+  <link rel="stylesheet" href="style.css">
+
+<body>
+
+    <header>
+      <a href="#" class="logo">THE APPLIANCE DEPOT<span>.</span></a>
+
+     <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="inventory.html">Products</a>
+        <a href="additem.html">Add item</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+<div class="container">
+    <h1>Add New Item</h1>
+    <p class="subtitle">Fill in the details below to update your inventory.</p>
+
+    <form>
+
+        <div class="form-row">
+            <div class="form-group">
+                <label>Product Name *</label>
+                <input type="text" placeholder="e.g. Television, washing machine, Laptop...">
+            </div>
+
+            <div class="form-group">
+                <label>Category *</label>
+                <select>
+                    <option>Select Category</option>
+                    <option>Tech Appliance</option>
+                    <option>Home Appliance</option>
+                    <option>Entertainment Appliance</option>
+                    <option>Kitchen Appliance</option>
+                    
+                </select>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group">
+                <label>Quantity *</label>
+                <input type="number" value="0">
+            </div>
+
+            <div class="form-group">
+                <label>Price (¢) *</label>
+                <input type="number" step="0.01" value="0.00">
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group">
+                <label>Product Condition *</label>
+                <div class="radio-group">
+                    <label><input type="radio" name="condition" checked> New</label>
+                    <label><input type="radio" name="condition"> Used</label>
+                    <label><input type="radio" name="condition"> Refurbished</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>Availability *</label>
+                <div class="radio-group">
+                    <label><input type="radio" name="availability" checked> In Stock</label>
+                    <label><input type="radio" name="availability"> Out of Stock</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label>Product Features</label>
+            <div class="checkbox-group">
+                <label><input type="checkbox"> Warranty Included</label>
+                <label><input type="checkbox"> Free Shipping</label>
+                <label><input type="checkbox"> Featured Item</label>
+                <label><input type="checkbox"> On Sale</label>
+            </div>
+        </div>
+
+        <div class="form-group"><br>
+            <label>Description (Optional)</label><br>
+        </div>
+        <textarea placeholder="Brief description of the product..." rows="5" cols="20"></textarea><br>
+          
+        <button type="submit">Add Item</button>
+
+    </form>
+</div>
+
+   
+    <section>
+         <div class="external-link">
+        <h3>Global Link </h3><br>
+        <p>Acess the global directory for real-time shipping regulations</p>
+
+        <div class="link-box"><br>
+            <a href="https://www.google.com/">Google</a>
+
+        <p class="link-text">SEARCH GLOBAL DIRECTORY(GOOGLE)</p>
+    
+
+
+    </div>
+    </section>
+    <footer>
+      THE APPLIANCE DEPOT.
+    </footer>
+</body>
+</html>
